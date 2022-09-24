@@ -9,10 +9,10 @@ export default function Qeustion({qst}) {
     <div className='flex-1 cursor-pointer
     transition duration-200 ease-in transform sm:hover:scale-105 '>
         <div className='flex justify-between flex-1 items-center'>
-        <p className ='text-4xl'>{qst}</p>
-        <HiPlusCircle size={70} className='' color='#3FA796'/>
+        <p className ='text-base md:text-2xl xl:text-3xl pb-8 pt-2'>{qst}</p>
+        <HiPlusCircle size={70} className='w-10 md:w-16' color='#3FA796'/>
         </div>
-        <div className='bg-[3FA796] h-2 w-full  '></div>
+        <div className='bg-green h-1 w-full  rounded-3xl '></div>
     </div>
   )
 }
