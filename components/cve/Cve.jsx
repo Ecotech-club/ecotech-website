@@ -8,7 +8,7 @@ const Cve = () => {
       <div className='mx-3 md:mx-12 lg:mx-24'>
          <div className='flex justify-start items-baseline'>
             <div className='bg-main h-1.5 w-1/12 mr-8  rounded-3xl mb-2'></div>
-            <h1 className='sm:text-sm md:font-bold font-semibold md:text-3xl xl:text-4xl mt-3 lg:my-4 mb-2'>D'où sommes nous commencé?  </h1>
+            <h1 className='sm:text-sm md:font-bold font-semibold md:text-3xl xl:text-4xl mt-3 lg:my-4 mb-2'>D'où avons nous commencé?  </h1>
          </div>
          <div className='flex flex-col md:flex-row justify-around items-center'>
           <p className='font-sans sm:text-lg text-base  lg:text-xl'>Le CVE est le premier club à vision environnementale créé à l’ESI (ex. INI) en 2012, son principal but était d’encourager les étudiants à l'entrepreneuriat vert et les aider à développer des projets à impact environnemental.
