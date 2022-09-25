@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/Image'
 const About = () => {
   return (
-    <section className=' bg-gradient-to-b from-bgFirst/20 to-bgSecond/80  h-screen '>
+    <section className=' bg-gradient-to-b from-secondary/20 to-main  h-screen '>
       <div className='flex flex-col-reverse bg-red lg:flex-row w-full'>    
         {/* left side  */ }
         <div className=' flex md:flex-row md:space-x-0 justify-center  lg:flex-col w-full lg:w-4/12 md:mt-16 mt-4  relative'>
@@ -29,7 +29,7 @@ const About = () => {
             <div className='w-full flex justify-center items-center mt-6 '>
             <button className='lg:w-60 lg:h-15  sm:h-14 sm:w-40 w-32 h-8  rounded-[60px] text-white lg:text-4xl text-lg font-sans 
                 transition duration-200 ease-in transform sm:hover:scale-105
-                 bg-More tracking-wider leading-10 py-0 md:py-2'>More</button>
+                 bg-secondary tracking-wider leading-10 py-0 md:py-2'>More</button>
 
             </div>
           </div>

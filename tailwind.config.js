@@ -20,9 +20,9 @@ module.exports = {
           'main': '#3FA796',    
           'secondary': '#FF8C32',  
           'CveEvent' :'#F5BF91',
-          'bgFirst':'#FF8C32',
-          'bgSecond':'#3FA796',
-          'More' :"#FF8C32"
+          
+          
+        
 
         },
         fontFamily: {

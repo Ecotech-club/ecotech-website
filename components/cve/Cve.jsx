@@ -3,7 +3,7 @@ import Event from './event'
 
 const Cve = () => {
   return (
-    <section className='h-screen flex flex-col bg-gradient-to-b from-bgFirst/20 to-bgSecond/80'>
+    <section className='h-screen flex flex-col bg-gradient-to-b from-secondary/20 to-main/80'>
     {/*above*/}
       <div className='mx-3 md:mx-12 lg:mx-24'>
          <div className='flex justify-start items-baseline'>
