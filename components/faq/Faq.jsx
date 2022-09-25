@@ -34,7 +34,7 @@ const Faq = () => {
   return (
     <section className='bg-gradient-to-b from-secondary/20 to-main/80 ml-15 flex flex-col min-h-screen justify-start items-center overflow-y-visible'>
       <div className='sm:text-2xl md:font-bold font-semibold md:text-3xl xl:text-5xl  mt-16 mb-10 font-sans'>Questions fréquemment posées</div>
-      <div className='flex flex-col w-10/12 xl:w-8/12 space-x-4 md:ml-16  ml-4 mb-8 '>
+      <div className='flex flex-col w-10/12 xl:w-8/12 space-x-4 md:ml-16  ml-4 mb-24 '>
       <div></div>
          {
           qeustions.map(qeustion => (

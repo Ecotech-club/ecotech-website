@@ -26,7 +26,7 @@ const Cve = () => {
                 <div className='bg-main h-1.5 mx-2 w-2/12  rounded-3xl mt-1'></div>
             
            </div>
-           <div className='flex flex-col flex-1 text-xs xs:flex-row flex-wrap md:y-12 mb-1     justify-start relative space-x-4 lg:space-x-16 '>
+           <div className='flex flex-col flex-1 text-xs xs:flex-row flex-wrap md:my-12  mb-1     justify-start relative space-x-4 lg:space-x-16 '>
             <div></div>
             <Event title='Reboisement' />
             <Event title='Open class' />
