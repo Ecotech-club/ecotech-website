@@ -1,17 +1,17 @@
 import React from 'react'
-import Image from 'next/Image'
+
 const About = () => {
   return (
-    <section className=' bg-gradient-to-b from-secondary/20 to-main  h-screen '>
+    <section className='min-h-screen bg-gradient-to-b from-secondary/20 to-main p-[3%]'>
       <div className='flex flex-col-reverse bg-red lg:flex-row w-full'>    
         {/* left side  */ }
-        <div className=' flex md:flex-row md:space-x-0 justify-center  lg:flex-col w-full lg:w-4/12 md:mt-16 mt-4  relative'>
+        <div className=' flex md:flex-row md:space-x-0 justify-center lg:flex-col w-full lg:w-4/12 mt-4 md:mt-16  relative'>
             <div className='lg:flex-1 relative lg:mx-10 '>
               <img src='/About-Images/above.png' className=' w-40 h-24  lg:w-96 lg:h-80 object-contain'  />
             </div>
+            
             <div className='lg:flex-1 lg:absolute  lg:mt-40 ml-0 '>
-            <img src='/About-Images/down.png' className='w-40 h-24 sm:w-64 sm:h-48  lg:w-96 lg:h-80 object-contain'   />
-          
+              <img src='/About-Images/down.png' className='w-40 h-24 sm:w-64 sm:h-48  lg:w-96 lg:h-80 object-contain'   />          
             </div>
             
           </div> 
@@ -27,9 +27,9 @@ const About = () => {
               </p>
             </div>
             <div className='w-full flex justify-center items-center mt-6 '>
-            <button className='lg:w-60 lg:h-15  sm:h-14 sm:w-40 w-32 h-8  rounded-[60px] text-white lg:text-4xl text-lg font-sans 
+            <button className='lg:px-[45px] lg:py-3 px-8 rounded-[60px] text-white lg:text-4xl text-lg font-sans 
                 transition duration-200 ease-in transform sm:hover:scale-105
-                 bg-secondary tracking-wider leading-10 py-0 md:py-2'>More</button>
+                 bg-secondary tracking-wider leading-10'>Plus</button>
 
             </div>
           </div>

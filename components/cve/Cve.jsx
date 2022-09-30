@@ -3,7 +3,7 @@ import Event from './event'
 
 const Cve = () => {
   return (
-    <section className='h-screen flex flex-col bg-gradient-to-b from-secondary/20 to-main/80'>
+    <section className='flex flex-col bg-gradient-to-b from-secondary/20 to-main/80 p-[3%] min-h-screen'>
     {/*above*/}
       <div className='mx-3 md:mx-12 lg:mx-24'>
          <div className='flex justify-start items-baseline'>
@@ -15,7 +15,7 @@ const Cve = () => {
            Ce club était d’une importance majeure à l’école grâce à ses activités et ses événements
            qui permettent aux étudiants une adaptation facile à l’école, et créent un espace  enrichissant et encourageant les nouvelles technologies.
           </p>
-          <img src='/cve-Images/logo_cve.png' className='w-56 h-36 lg:w-96 lg:h-52' />
+          <img src='/cve-images/Logo_cve.png' className='w-56 h-36 lg:w-96 lg:h-52' />
          </div>
       </div>
     {/*down*/}
