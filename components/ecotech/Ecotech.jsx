@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ecotech = () => {
   return (
-    <div>Ecotech</div>
+    <div id='ecotech'>Ecotech</div>
   )
 }
 
