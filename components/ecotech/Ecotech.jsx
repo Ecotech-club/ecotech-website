@@ -2,12 +2,12 @@ import React from 'react'
 
 const Ecotech = () => {
   return (
-    <section className=' bg-gradient-to-b from-secondary/20 to-main  f-screen w-full p-12'>
+    <section className=' bg-background f-screen w-full p-12'>
       <div className='items-center flex pt-8 px-4 pb-4 '>
-        <div className=' bg-main h-1.5 w-1/6  min-w-min	 ml-2 rounded-3xl mb-3'></div>
-        <div className='bg-main  h-4 w-4 xs:w-3 xs:h-3 lg:h-4 lg:w-4 relative -left-1 min-w-min  rounded-3xl mb-3'></div>
+        <div className=' bg-secondary2 h-1.5 w-1/6  min-w-min	 ml-2 rounded-3xl mb-3'></div>
+        <div className='bg-secondary2  h-4 w-4 xs:w-3 xs:h-3 lg:h-4 lg:w-4 relative -left-1 min-w-min  rounded-3xl mb-3'></div>
         <div className=' md:w-11/12 lg:w-8/12 relative -top-2 flex min-w-min '>
-        <h2 className='font-sans   text-sm sm:text-xl lg:text-4xl  md:text-2xl xs:text-md text-main font-bold  mx-4 '>Qui sommes-nous aujourd'hui?</h2>
+        <h2 className='font-sans text-bold  text-sm sm:text-xl lg:text-4xl  md:text-2xl xs:text-md text-white font-bold  mx-4 '>Qui sommes-nous aujourd'hui?</h2>
         </div>
       </div>
     <div className='flex flex-col-reverse  lg:flex-row w-full'>    

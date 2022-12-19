@@ -17,9 +17,10 @@ module.exports = {
     extend: {
       
         colors: {
+          'background':'#079d9c',
           'main': '#3FA796',    
           'secondary': '#FF8C32',  
-          'CveEvent' :'#F5BF91',
+          'secondary2' :'#DDE226',
           
           
         
