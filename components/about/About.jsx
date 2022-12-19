@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='about' className='min-h-screen bg-gradient-to-b from-secondary/20 to-main p-[3%]'>
+    <section id='about' className='min-h-screen bg-background p-[3%] text-white'>
       <div className='flex flex-col-reverse bg-red lg:flex-row w-full'>
         {/* left side  */}
         <div className=' flex md:flex-row md:space-x-0 justify-center lg:flex-col w-full lg:w-4/12 mt-4 md:mt-16  relative'>
@@ -19,8 +19,8 @@ const About = () => {
 
         <div className='flex flex-col sm:w-full m-0 md:w-11/12 lg:w-8/12 mt-4 mx-8 lg:mt-24 lg:mx-10  mb-4'>
           <div className=' flex justify-start items-baseline '>
-            <h2 className='font-sans sm:text-3xl md:text-5xl text-main font-bold' >About Us</h2>
-            <div className='bg-main h-1.5 w-2/12 ml-8  rounded-3xl mb-3'></div>
+            <h2 className='font-sans sm:text-3xl md:text-5xl font-bold' >À propos</h2>
+            <div className='bg-secondary2 h-1.5 w-2/12 ml-8  rounded-3xl mb-3'></div>
           </div>
           <div className=''>
             <p className='font-sans text-base lg:text-2xl leading-6 md:leading-8 tracking-wide'>Ecotech est un club estudiantin créé en 2012 sous le nom de “Club Vert de l’École Nationale Supérieure d'Informatique" par des étudiants passionnés par la nature et le service environnemental. Depuis sa création, le club a travaillé sur des campagnes de sensibilisation pour faire savoir au citoyen la nécessité de préserver notre environnement, tout ça en impliquant d’autres domaines, à leur tête l'informatique. D’où l’idée de fusionner le domaine écologique et technologique pour donner un nouveau visage à notre club en 2020 sous le nom d’EcoTech.
