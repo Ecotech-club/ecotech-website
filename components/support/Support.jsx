@@ -13,8 +13,8 @@ const Support = () => {
         <div className='w-full flex  items-center mt-6 '>
         <button className='lg:w-60 lg:h-15 text-centre sm:h-14 sm:w-40 w-40 h-12  rounded-[40px] text-white lg:text-2xl text-lg font-sans transition duration-200 ease-in transform sm:hover:scale-105 bg-secondary tracking-wider leading-8 my-8 py-3  md:py-2 shadow-md'>Nous Soutenir</button>
         </div>
+      </div>
     </div>
-   </div>
   )
 }
 
