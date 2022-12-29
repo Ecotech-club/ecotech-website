@@ -36,7 +36,6 @@ const Cve = () => {
             <Event title='Sahra_IT'/>
            </div>
       </div>
-      <button data-tf-slider="guiMX8as" data-tf-width="550" data-tf-iframe-props="title=My 1st typeform" data-tf-medium="snippet">Launch me</button><script src="//embed.typeform.com/next/embed.js"></script>
     </section>
   )
 }

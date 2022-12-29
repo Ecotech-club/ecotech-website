@@ -11,12 +11,8 @@ const Hero = () => {
               EcoTech (ex. Club Vert de l'ESI) est un club estudiantin crée dont le but de préserver l'environnement.
             </h2>
           </div>
-          <div>
-            <a href='#'>
-              <button className={styles.hero_btn}>
-                S'inscrire
-              </button>
-            </a>
+          <div>  
+              <button className={styles.hero_btn} data-tf-slider="guiMX8as" data-tf-width="550" data-tf-iframe-props="title=My 1st typeform" data-tf-			medium="snippet">S'inscrire</button><script src="//embed.typeform.com/next/embed.js"></script>
           </div>
         </div>
         {/**wright --big logo-- */}

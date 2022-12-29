@@ -12,7 +12,7 @@ export default function Home() {
       <Events/>
       <Faq/>
       <Support/>
-      <Contact/>
+
       <Footer/>
 
       
